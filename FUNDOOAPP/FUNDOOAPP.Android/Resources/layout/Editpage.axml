@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:gravity="top"
+	 android:orientation="vertical"
+	 android:background="@android:color/holo_purple"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+	<EditText
+		android:inputType="textEmailAddress"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/notetitle"
+		android:hint="enter email"/>
+	<EditText
+		android:inputType="textEmailAddress"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/notedata"
+		android:hint="enter email"/>
+	<LinearLayout
+		
+		 android:layout_width="match_parent"
+         android:layout_height="match_parent"
+	>
+	<ImageButton
+			 android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:src="@drawable/mr_button_light"
+			/>
+			
+			
+	
+	
+	</LinearLayout>
+	
+
+	
+</LinearLayout>
